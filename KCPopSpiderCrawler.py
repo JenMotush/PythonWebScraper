@@ -5,8 +5,8 @@ import numpy as np
 import sys
 import openpyxl
 
-# Log In to App:
-reddit = praw.Reddit(client_id='Ftf823GXKcXaGIyVSJN0FQ', client_secret='Q7sEFCqJi_KC6dGQrRhWGLxnCCZMPA', user_agent='classwebscraper')
+# Log In to App: Create this in Reddit and plug your info in 
+reddit = praw.Reddit(client_id='XXX', client_secret='XXX', user_agent='XXX')
 
 # Hot Submissions in the Subreddit (limit can be adjusted as preference (#.top('week')))
 subs = reddit.subreddit('kansascity').hot(limit=10)
